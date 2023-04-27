@@ -1,0 +1,11 @@
+#type primitive
+n = input('Digite algo:')
+print(type(n))
+print('É alfanuméreco?')
+print(n.isalnum())
+print('É numéreco?')
+print(n.isnumeric())
+print('É decimal?')
+print(n.isdecimal())
+print('É alfabético?')
+print(n.isalpha())
