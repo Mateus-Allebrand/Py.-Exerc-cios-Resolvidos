@@ -12,6 +12,10 @@ temp = dict()
 med = 0
 medidade = 0
 mulheres = list()
+calc = []
+acmedia = []
+cont = 0
+medof = []
 while True:
     temp['nome'] = str(input('Nome: '))
     temp['sexo'] = str(input('Sexo: [M/F]')).upper()[0]
@@ -32,7 +36,18 @@ while True:
         break
 
 medidade = med / len(lista)
+for n,i in enumerate(lista):
+    calc.append(i)
+    if calc[n]['idade'] > medidade:
+        acmedia.append(calc[n]['nome'])
+        acmedia.append(calc[n]['idade'])
+        medof.append(acmedia[:])
+        acmedia.clear()
+
 print(lista)
 print(f'Foram cadastradas {len(lista)} pessoa(s)') #A Respondida
 print(f'A media de idade das pessoas cadastradas é {medidade:.2f}') #B Respondida
 print(f'As mulheres cadastradas são: {mulheres}') #c Respondida
+#print(f'As pessoas que estão acima da média de idade: {medof}') #D Respondida
+for z in medof:
+    print(f'Acima da média de idade: Nome: {z[0]} Idade: {z[1]} ')

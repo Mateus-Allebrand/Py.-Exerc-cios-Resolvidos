@@ -6,8 +6,9 @@ mulheres = list()
 calc = []
 acmedia = []
 cont = 0
+medof = []
 while True:
-    temp['nome'] = str(input('Nome: '))
+    temp['nome'] = str(input('Nome: ')).title()
     temp['sexo'] = str(input('Sexo: [M/F]')).upper()[0]
     if temp['sexo'] == 'F':
         mulheres.append(temp['nome'])
@@ -30,8 +31,20 @@ for n,i in enumerate(lista):
     calc.append(i)
     if calc[n]['idade'] > medidade:
         acmedia.append(calc[n]['nome'])
-print(lista)
-print(f'Foram cadastradas {len(lista)} pessoa(s)') #A Respondida
-print(f'A media de idade das pessoas cadastradas é {medidade:.2f}') #B Respondida
-print(f'As mulheres cadastradas são: {mulheres}') #c Respondida
-print(f'As pessoas que estão acima da média de idade: {acmedia}') #D Respondida
+        acmedia.append(calc[n]['idade'])
+        medof.append(acmedia[:])
+        acmedia.clear()
+
+print('=='*30)
+print('=='*30)
+print(f'\nForam cadastradas {len(lista)} pessoa(s)') #A Respondida
+print('-='*30)
+print(f'\nA media de idade das pessoas cadastradas é de {medidade:.1f} anos') #B Respondida
+print('-='*30)
+print(f'\nAs mulheres cadastradas são: {mulheres}') #c Respondida
+print('-='*30)
+#print(f'As pessoas que estão acima da média de idade: {medof}') #D Respondida
+for z in medof:
+    print(f'\nAcima da média de idade: Nome: {z[0]} Idade: {z[1]} \n')
+print('=='*30)
+print('=='*30)
