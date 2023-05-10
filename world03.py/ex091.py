@@ -9,8 +9,8 @@ cont = 0
 jogt = {}
 jogadores = dict()
 
-print('-=' *30 
-      'jogo de dados')
+print('-=' *30 )
+print('jogo de dados')
 for c in range(0,4):
     jogt['Jogador_01'] = randint(1,6)
     jogt['Jogador_02'] = randint(1,6)
