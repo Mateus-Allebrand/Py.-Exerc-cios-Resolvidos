@@ -12,5 +12,4 @@ if not arquivoexiste(arq):
    criararquivo(arq)
 
 
-#menu()
-lerarquivo(arq)
+menu()
