@@ -1,4 +1,6 @@
-#type primitive
+#Programa pede uma entrada de uma dado para o usuário e retorna para ele os informações de tipo de dado, em relação ao que ele digitou.
+
+#Programa principal
 n = input('Digite algo:')
 print(type(n))
 print('É alfanuméreco?')

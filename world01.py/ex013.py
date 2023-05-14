@@ -1,4 +1,7 @@
-#calcular aumento
+#Programa solicita o salário do funcionário e porcentagem de aumento, quando fornecidos os dados ele gera uma mensagem formatada com o valor do salário atualizado com o aumento.
+
+
+#Programa principal
 salariohj = float(input('Qual o salário do funcionário atualmente? '))
 porcaumen = float(input('Qual a porcentagem de aumento? '))
 totaumento = salariohj * (porcaumen / 100)

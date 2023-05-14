@@ -1,4 +1,7 @@
-#calcular desconto
+#Programa pede valor do produto e porcentagem de desconto, quando fornecidos as informações ele calcula e mostra uma mensagem formatada com o valor do produto ja com o desconto.
+
+
+#Programa principal
 valorprod = float(input('Qual valor do produto? '))
 porcdesc = float(input('Qual a porcentagem de desconto no produto? '))
 valordesc = valorprod * (porcdesc/100)

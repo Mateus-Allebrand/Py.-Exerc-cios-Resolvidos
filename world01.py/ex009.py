@@ -1,4 +1,8 @@
-#tabuada
+#Programa pede para o susuário digitar um número, e mostra na tela a tabuada do número digitado pelo usuário.
+#OBS: Quando começar os exercícios de listas vou melhorar esse programa.
+
+
+#Programa principal
 n = int(input('Digite um número inteiro: '))
 t = 'TABUADA'
 zero = 0 * n

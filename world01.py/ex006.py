@@ -1,4 +1,7 @@
-#jogos numéricos
+#O programa pede ao usuário para digitar um número, e como saída gera uma frase formatada mostrando o número digitado pelo usuário, o dobro, o triplo e a raiz quadrada.
+
+
+#Programa principal
 n = float(input('Digite um número: '))
 n2 = 2 * n
 n3 = 3 * n

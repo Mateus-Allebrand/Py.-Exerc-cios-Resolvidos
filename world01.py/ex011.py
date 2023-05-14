@@ -1,4 +1,7 @@
-#calculador de tinta
+#Programa serve como uma calculadora para dizer quantas latas de tintas serão necessárias para pintar uma parede
+
+
+#Programa principal
 largura = float(input('Qual a largura da parede? '))
 altura = float(input('Qual a altura da parede? '))
 tinta = float(input('Quantos m² a tinta pinta por litro? '))

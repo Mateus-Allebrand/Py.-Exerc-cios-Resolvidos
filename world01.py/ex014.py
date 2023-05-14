@@ -1,4 +1,7 @@
-#conversor temperatura
+#O programa converte Graus Celsius em Graus Fahrenheit.
+
+
+#Programa principal
 celsius = float(input('Digite a temperatura em Graus Celsios: '))
 osc = 1.8
 fah = 32
