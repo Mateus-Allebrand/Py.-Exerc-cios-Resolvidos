@@ -1,4 +1,7 @@
-#mostra o nome em letras maiúsculas ,minusculas n de caracteres no nome sem espaços e n de caracteres no primeiro nome 
+#Programa lê nome do usuário e mostra o nome em letras maiúsculas, minusculas, diz o número de caracteres no nome sem os espaços e informa também o número de caracteres no primeiro nome.
+
+
+#Programa principal.
 nome = input('Digite o seu nome completo: ')
 nome1 = nome.upper()
 nome2 =nome.lower()

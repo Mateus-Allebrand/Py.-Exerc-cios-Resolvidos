@@ -1,3 +1,5 @@
-#funcionou para reproduzir a musica
+#Programa toca uma música em mp3.
+
+#Programa principal.
 import playsound
-playsound.playsound('ex021.mp3')
+playsound.playsound('world01.py\ex021.mp3')

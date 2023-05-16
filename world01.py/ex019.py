@@ -1,4 +1,4 @@
-#Programa lê os nomes de 4 alunos e escolhe entre eles um para apresnentar o trabalho primeiro.
+#Programa lê os nomes de 4 alunos e escolhe entre eles para apagar o quadro negro.
 
 
 #Programa principal

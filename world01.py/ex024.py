@@ -1,4 +1,7 @@
-# procura nome santo no inicio do nome da cdade
+#Programa lê um nome de cidade de diz se o nome da cidade tem a palavra "SANTO" no inicio do nome.
+
+
+#Programa principal.
 cidade = input('Digite o nome da sua cidade: ')
 cidade = cidade.upper()
 n = cidade.find('SANTO')

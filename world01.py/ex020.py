@@ -1,4 +1,7 @@
-#embaralhar
+#Programa sorteia a ordem que será apresentados os trabalhos da turma.
+
+
+#Programa principal.
 import random
 n1 = input('Digite o nome do primeiro aluno: ')
 n2 = input('Digite o nome do segundo aluno: ')

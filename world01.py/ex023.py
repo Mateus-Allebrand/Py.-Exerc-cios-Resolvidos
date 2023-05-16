@@ -1,4 +1,7 @@
-#mostra  de uni dez cen mil
+#Programa lê um número digitado pelo usuário e descrev a quantidade de unidades, dezenas, centenas e milhares contido no número digitado.
+
+
+#Programa principal.
 num = (input('Digite um número entre 0 e 9.999: '))
 numalg = len(num)
 if numalg == 1:
