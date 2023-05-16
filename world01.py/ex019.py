@@ -1,4 +1,7 @@
-#sorteio
+#Programa lê os nomes de 4 alunos e escolhe entre eles um para apresnentar o trabalho primeiro.
+
+
+#Programa principal
 import random
 n1 = input('Digite o nome do primeiro aluno: ')
 n2 = input('Digite o nome do segundo alunos: ')

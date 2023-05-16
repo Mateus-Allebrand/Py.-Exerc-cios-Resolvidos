@@ -1,4 +1,7 @@
-#calcular sen cos tan
+#Programa l~e um angulo e retona para o usuário o seno , cosseno e tangenete desse angulo.
+
+
+#Programa principal
 import math
 ang = int(input('Digite o angulo:'))
 sen = math.sin(math.radians(ang))
