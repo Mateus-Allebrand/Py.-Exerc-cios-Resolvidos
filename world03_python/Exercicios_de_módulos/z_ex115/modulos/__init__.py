@@ -4,7 +4,7 @@ from arquivo import cadastrar
 
 
 def menu():
-    arq ='ex15.txt'
+    arq ='db.txt'
     cadastro = list()
     while True:
         print('=' * 40)
