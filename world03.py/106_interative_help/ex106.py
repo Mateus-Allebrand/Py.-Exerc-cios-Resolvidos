@@ -1,6 +1,6 @@
 #Crie um mini sistema que utilize o interactive help 
 #O usuário vai digitar o comando e o manual vai aparecer
-#quando o usuário dogitar 'fim' o programa deve finalizar
+#quando o usuário digitar 'fim' o programa deve finalizar
 from time import sleep
 
 c = ['\033[m',             #0 limpar

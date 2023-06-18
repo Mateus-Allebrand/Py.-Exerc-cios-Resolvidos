@@ -1,4 +1,4 @@
-#Crie um programa que tenha uma função fatorial()que receba dois parametros, o número do fatorial, e o segundo parametro é um valor boleano se deseja ou não mostrar o processo de calculo na tela
+#Crie um programa que tenha uma função fatorial() que receba dois parametros, o número do fatorial, e o segundo parametro é um valor boleano se deseja ou não mostrar o processo de calculo na tela
 
 def fatorial(n = 1, bol = 0):
     """-> Calcula o fatorial de um número.
