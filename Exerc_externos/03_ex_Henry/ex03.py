@@ -17,7 +17,9 @@ contnota = 0
 media = 0
 cont = 0
 #Entrada de nomes -> professores
-
+print("=="*40)
+print("\033[1;32m=>\033[m \033[1;36mSEJA BEM VINDO!\033[m \033[1;32m<=\033[m".center(105))
+print("--"*40)
 for a in range(1,6):
     nome = input(f'\nDigite o nome do {a}° professor: ')
     lst_professores.append(nome.title())
@@ -33,9 +35,10 @@ for b in lst_professores:
         contnota += nota
         media = contnota / i
         print(f'Professor \033[1;32m{b}\033[m média até o momento \033[1;32m{media:.2f}\033[m')
-        if i == 3:
+        if i == 8:
             nprof.append(media)
 
+#Apresentando média dos professores
 print("=="*40)
 print("\033[1;32m==\033[m \033[1;36mMÉDIA DOS PROFESSORES\033[m \033[1;32m==\033[m".center(105))
 print("--"*40)
@@ -44,10 +47,11 @@ for c in range(0,5):
     print(f"Professor {lst_professores[c]:<50} Média {nprof[c]:^10.2f}")
     nome_nota[lst_professores[c]] = nprof[c]
 
+#Organizando a lista em ordem descrescente para localizar a maior e a menor média
 for d in sorted(nome_nota,key=nome_nota.get, reverse=True):
     org[d] = nome_nota[d]
 
-
+#Apresentando as medias destaques 
 print("=="*40)
 print("\033[1;32m==\033[m \033[1;36m DESTAQUES \033[m \033[1;32m==\033[m".center(105))
 print("--"*40)
