@@ -1,8 +1,8 @@
-# Faça um algoritimo que leia o nome de 5 professores e armazene na lista lst_professores
-# cada professor recebera uma nota de 1 a 5 de 8 alunos
+# Faça um algoritmo que leia o nome de 5 professores e armazene na lista lst_professores
+# cada professor receberá uma nota de 1 a 5 de 8 alunos
 # Mostre o nome do professor e sua Nota 
-# mostre a media de notas de cada professor
-# mostre o professor com a nota mais alta e o professor com a media mais baixa
+# mostre a média de notas de cada professor
+# mostre o professor com a média mais alta e o professor com a média mais baixa
 
 #Bibliotecas
 from operator import itemgetter, attrgetter
