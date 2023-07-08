@@ -48,8 +48,7 @@ def game():
         tentativa = input("Digite uma letra: ").lower()
         print("")
         
-        hangman = Hangman()
-        x = hangman.advinhar(palavra,tentativa)
+        
 
         #condicional
         if tentativa in palavra:
