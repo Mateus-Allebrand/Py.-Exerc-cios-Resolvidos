@@ -14,7 +14,11 @@ while True:
         print("'OP' Inválida!")
         op = int(input(f"\n[[1]] Novo serviço: \n\n[[2]] Vizualizar serviços realizados hoje: \n\n[[0]] Sair: \n\n{rowdoble()}\n"))
 
-    #Funcionando
+    
+
+    #Adcionar um novo serviço
+
+    
     if op == 1:
         print("op 1 selecionada")
     if op == 2:
