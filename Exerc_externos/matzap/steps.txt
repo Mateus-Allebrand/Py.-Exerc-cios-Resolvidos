@@ -1,0 +1,7 @@
+Boão de inciiar o chat
+popoup para entrar no chat
+quando entrar no site (aparece para todo mundo)
+    mensagem de que voce entrou no site
+    campo e botão para enviar mensagem
+A cada mensagem enviada:
+    nome: texto da mensagem(aparece para todo mundo)
