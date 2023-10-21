@@ -2,7 +2,7 @@ import openai
 
 
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 #Função para gerar texto a partir do modelo de linguagem
 
