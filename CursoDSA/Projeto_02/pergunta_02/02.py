@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 import datetime as dt
 
 
-df = pd.read_csv('dataset.csv')
+df = pd.read_csv('/home/mateus/Documentos/Programacao/Python/Py.-Exercios-Resolvidos/CursoDSA/Projeto_02/dataset.csv')
 
 dados = dict()
 

@@ -13,7 +13,7 @@ import datetime as dt
 
 
 
-df = pd.read_csv("dataset.csv")
+df = pd.read_csv("/home/mateus/Documentos/Programacao/Python/Py.-Exercios-Resolvidos/CursoDSA/Projeto_02/dataset.csv")
 dados_f = {}
 dados = df.groupby('Cidade')['Valor_Venda'].sum()
 
@@ -34,5 +34,8 @@ plt.figure(figsize=(20,6))
 sns.barplot(x='Cidade', y='Valor_Venda', data=df_cidades_maiores_vendas).set(title="10 Cidades com maior venda")
 plt.xticks(rotation=80)
 plt.show()
+
+plt.show(block=True)
+
 
 #Consegui sem muitos problemas

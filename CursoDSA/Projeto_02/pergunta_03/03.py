@@ -19,7 +19,7 @@ import datetime as dt
 
 
 
-df = pd.read_csv("dataset.csv")
+df = pd.read_csv("/home/mateus/Documentos/Programacao/Python/Py.-Exercios-Resolvidos/CursoDSA/Projeto_02/dataset.csv")
 
 # Agrupa os dados por estado, somando o valor da venda para cada estado
 dados = df.groupby('Estado')['Valor_Venda'].sum().reset_index()
