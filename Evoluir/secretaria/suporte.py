@@ -2,9 +2,6 @@
 
 
 
-from typing import Self
-
-
 def menu():
     x = ("=-="*20)
     print(x)
@@ -29,10 +26,11 @@ class Prof():
         self.ide = ide
         self.nome = nome
 
-    def registrar(self):
-        professores = {}
-        
-        
-        
+    def professores(self):
+        professorex = []
+        professorex.append(self.ide)
+        professorex.append(self.nome)
+    
+        return professorex
 
         
