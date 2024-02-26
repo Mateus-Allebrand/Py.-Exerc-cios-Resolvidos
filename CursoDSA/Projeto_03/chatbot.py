@@ -1,7 +1,6 @@
 import openai
 
 
-
 openai.api_key = "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"
 
 #Função para gerar texto a partir do modelo de linguagem
