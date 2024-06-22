@@ -161,7 +161,8 @@ JOIN
 JOIN 
     Hotel h ON q.hotel_id = h.hotel_id
 WHERE 
-    c.cliente_id = 1  -- Substitua pelo ID do cliente desejado
+    c.cliente_id = 1  -- No meu exemplo,usei o id 1, mas pode
+                      -- ser qualquer id desejado 
 ORDER BY 
     hs.dt_checkin;
 
@@ -235,7 +236,7 @@ JOIN
 JOIN 
     Hotel h ON q.hotel_id = h.hotel_id
 WHERE 
-    h.nome = 'Nome do Hotel Específico'
+    h.nome = 'Alminda Camardelli' -- usei o nome do cliente Alminda como exemplo
     AND hs.status_hosp = 'reserva';
 
 --4 -h
